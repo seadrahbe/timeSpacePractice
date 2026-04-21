@@ -43,9 +43,9 @@ public class Practice {
     return frequencies;
   }
 
-  // Time Complexity: 
-  // Space Complexity: 
-  // Remember to define your variables!
+  // Time Complexity: O(n^2)
+  // Space Complexity: O(n)
+  // Where n = n (the provided integer value)
   public static List<Integer> evensToSquare(int n) {
     List<Integer> evens = new ArrayList<>();
     for(int i = 0; i <= n*n; i+=2) {
