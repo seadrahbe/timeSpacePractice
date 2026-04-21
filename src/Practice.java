@@ -32,9 +32,9 @@ public class Practice {
   }
   
 
-  // Time Complexity: 
-  // Space Complexity: 
-  // Remember to define your variables!
+  // Time Complexity: O(n)
+  // Space Complexity: O(n)
+  // n=array.length
   public static <T> Map<T, Integer> countFrequencies(T[] array) {
     Map<T, Integer> frequencies = new HashMap<>();
     for (T val : array) {
