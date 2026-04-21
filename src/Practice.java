@@ -68,9 +68,8 @@ public class Practice {
     return result;
   }
 
-  // Time Complexity:
-  // Space Complexity:
-  // Remember to define your variables!
+  // Time Complexity: O(1)
+  // Space Complexity: O(1)
   public static List<Character> septuple(char c) {
     List<Character> result = new ArrayList<>();
     for(int i = 0; i < 7; i++) {
