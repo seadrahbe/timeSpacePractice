@@ -7,3 +7,9 @@ Commit frequently! BOTH PARTNERS MUST CONTRIBUTE COMMITS! Alternate which comput
 In `Practice.java` fill in the time and space complexities for the already completed methods. Implement the unimplemented methods AND ADD UNIT TESTS for them in `PracticeTest.java`.
 
 When you are finished, one partner should make a PR against the original repository. BOTH PARTNERS MUST COPY THE SAME PR LINK TO CANVAS TO GET CREDIT.
+
+Tests not running properly in the VS Code extension? Use this command to run them from the command line:
+
+```
+javac -cp lib/junit-platform-console-standalone-1.12.0.jar src/*.java && java -jar lib/junit-platform-console-standalone-1.12.0.jar --class-path src --scan-class-path
+```
