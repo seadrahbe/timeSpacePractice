@@ -54,9 +54,9 @@ public class Practice {
     return evens;
   }
 
-  // Time Complexity:
-  // Space Complexity:
-  // Remember to define your variables!
+  // Time Complexity: O(r*c)
+  // Space Complexity:O(r*c)
+  // r= size of map, c=size of largest List in map
   public static List<Integer> concatVals(Map<Integer, List<Integer>> map) {
     List<Integer> result = new ArrayList<>();
 
