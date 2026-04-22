@@ -144,11 +144,15 @@ public class Practice {
 
     }
 
-    for (int num : nums) {
-      if (frequencyMap.get(num) > highestCount) {
-        highestCount = frequencyMap.get(num);
-        highestInt = num;
+    if (nums.length > 0) {
+      for (int num : nums) {
+        if (frequencyMap.get(num) > highestCount) {
+          highestCount = frequencyMap.get(num);
+          highestInt = num;
+        }
       }
+    } else {
+      return 0;
     }
 
     return highestInt;
