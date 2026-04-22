@@ -175,7 +175,7 @@ public class Practice {
    */
   public static int mostCommonSpaceEfficient(int[] nums) {
       int highestCount=0;
-      int highestInt=nums[0];
+      int highestInt=0;
 
       for(int i=0; i<nums.length;i++ ){
         int currentCount=0;
